@@ -1,0 +1,143 @@
+/* On initialise le style du document par defaut */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+/* On traite le style du header et ses elements */
+header {
+    padding-top: 10px;
+    height: 60px;
+    width: 100%;
+    background-color: #d6e1f8;
+    margin-bottom: 70px;
+}
+
+h2 {
+    margin-left: 10px;
+    /* margin-top: 15px; */
+    font-size: 25px;
+    text-size-adjust: 100px;
+    display: inline;
+}
+nav{
+    margin-right: 5px;
+    float: right;
+}
+nav ul {
+    list-style: none;
+    margin-right: 15px;
+    display: flex;
+}
+nav ul li {
+    margin-left: 15px;
+    margin-top: 12px;
+    font-size: 17px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+nav ul li a:hover{
+    background-color: #71a707;
+}
+#point {
+    color: #f005e4d3;
+    font-size: 40px;
+}
+/*On traite le style du body */
+
+.mainContent {
+    /* background-color: #eeebccf5; */
+    background-color: #610d0df3;
+    color: #fff;
+    margin: 0 40px 0 40px;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+#salutation {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: rgb(214, 211, 211);
+}
+.description {
+    background-color: #fdad001c;
+    /* border-radius: 50%;
+    opacity: 0.5; */
+    border-radius: 5px;
+    padding: 13px;
+}
+details ul li {
+    margin-left: 8px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+    color: #71a707;
+}
+abbr {
+    text-decoration: none;
+}
+/* On stylise les elements du footer */
+footer {
+    height: fit-content;
+    width: 100%;
+    /* background-color: #eeebccf5; */
+    background-color: #d6e1f8;
+    /* display: inline-flex; */
+    margin-top: 9.1em;
+}
+.numero {
+    padding-left: 10px;
+    padding-top: 8px;
+    display: inline-flexbox;
+    width: 250px;
+}
+.reseau {
+    float: right;
+    margin-top: -122px;
+    margin-right: 80px;
+    margin-left: -50px;
+}
+.numero ul li {
+    margin-left: 8px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+.reseau ul li {
+    margin-left: -50px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.reseau ul li a {
+    text-decoration: none; 
+}
+.reseau ul li a:hover{
+    color: #f005e4d3;
+}
+.reseau p {
+    margin-left: -50px;
+}
+footer h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #81808091;
+}
+footer h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14;
+}
